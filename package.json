@@ -4,7 +4,10 @@
   "description": "Assignemt 2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"npx parcel index.html",
+    "build":"npx parcel build './dist"
+
   },
   "author": "Sohel Shaikh",
   "license": "ISC",
@@ -15,5 +18,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }
