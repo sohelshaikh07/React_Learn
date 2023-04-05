@@ -1,6 +1,6 @@
 
 # ignoring below folders
-./node_modules
-./dist
+/node_modules
+/dist
+/.parcel-cache
 
-./node_modules
